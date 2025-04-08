@@ -18,4 +18,4 @@ jobs:
             - name: "run the tests"
               run: npm test
             - name: "deploy to aws"
-              run: pm2 start ./src/index.js
+              run: pm2 restart ./src/index.js
