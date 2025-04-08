@@ -23,10 +23,11 @@ app.use(bodyParser.text());
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.use('/api', ApiRouter); // if any req comes with url starting with /api
-app.get('/ping',(req,res)=>
-{
-    res.send('pong')
-})
+app.get('/ping', (req, res) => {
+    return res.json({
+        message: 'pong....'
+    })
+});
 app.listen(PORT, async () => {
     console.log(`Server for Shopcart is Up ${PORT}`);
     if(NODE_ENV == 'development') {
