@@ -27,13 +27,5 @@
   },
   "directories": {
     "test": "tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/singhsanket143/ShopCart-Ecommerce-Backend.git"
-  },
-  "bugs": {
-    "url": "https://github.com/singhsanket143/ShopCart-Ecommerce-Backend/issues"
-  },
-  "homepage": "https://github.com/singhsanket143/ShopCart-Ecommerce-Backend#readme"
-}
+  }
+
