@@ -28,7 +28,7 @@ app.get('/ping', (req, res) => {
         message: 'pong....'
     })
 });
-app.listen(PORT, async () => {
+app.listen(PORT,'0.0.0.0', async () => {
     console.log(`Server for Shopcart is Up ${PORT}`);
     if(NODE_ENV == 'development') {
         if(DB_FORCE == true) {
